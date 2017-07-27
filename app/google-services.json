@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "278141766029",
+    "firebase_url": "https://booksorder-b1d06.firebaseio.com",
+    "project_id": "booksorder-b1d06",
+    "storage_bucket": "booksorder-b1d06.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278141766029:android:10d11bbba6df6d31",
+        "android_client_info": {
+          "package_name": "com.priem.booksorder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278141766029-i3ns4rbgqbagpsjbsn2jv6hsh78el5mf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcxBCvMF_xB-XY6Cl9JLcJhT9XAEXy_QA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

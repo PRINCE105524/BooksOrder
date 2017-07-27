@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	android:layout_width="fill_parent" android:id="@+id/LinearLayoutItem">
+
+	<LinearLayout android:id="@+id/linearLayoutQuantity"
+		android:orientation="horizontal" android:layout_width="wrap_content"
+		android:layout_margin="5dip" android:layout_height="wrap_content"
+		android:layout_gravity="right">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Quantity:"
+			android:textSize="18dip" android:textColor="#000000" android:id="@+id/textViewQuantity"></TextView>
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/linearLayoutDetails"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/TextViewItem"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_margin="5dip"
+			android:maxWidth="150dip"
+			android:minLines="2"
+			android:text="Book Title"
+			android:textColor="#000000"
+			android:textSize="17dip"></TextView>
+
+		<ImageView
+			android:id="@+id/ImageViewItem"
+			android:layout_width="100dip"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dip"></ImageView>
+
+		<TextView
+			android:id="@+id/TextView01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"></TextView>
+	</LinearLayout>
+
+</LinearLayout>
